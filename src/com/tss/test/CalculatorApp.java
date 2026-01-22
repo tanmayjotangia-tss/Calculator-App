@@ -18,13 +18,13 @@ public class CalculatorApp {
         System.out.println("Enter second number");
         double number2 = scanner.nextDouble();
 
-        double addResult=addition.add(double a, double b);
+        double addResult=addition.add(number1,number2);
 
-        double subResult=subtraction.sub(double a, doubleb);
+        double subResult=subtraction.sub(number1,number2);
 
-        double multipleResult=multiplication.multiply(double a, double b);
+        double multipleResult=multiplication.multiply(number1,number2);
 
-        double divisionResult=division.divide(double a, double b);
+        double divisionResult=division.divide(number1,number2);
 
         System.out.println("Addition Result:" + addResult);
         System.out.println("Subtration Result:" + subResult);
