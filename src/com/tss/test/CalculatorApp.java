@@ -9,7 +9,7 @@ public class CalculatorApp {
 
         Addition addition = new Addition();
         Subtraction subtraction = new Subtraction();
-        Multipication multiplication = new Multiplication();
+        Multiplication multiplication = new Multiplication();
         Division division = new Division();
 
         System.out.println("Enter first number");
